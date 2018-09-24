@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-store-cleaner",
+  "name": "redux-store-cleaner",
   "version": "1.0.0",
   "description": "Reset store branch with simple action",
   "main": "./lib/index.js",
