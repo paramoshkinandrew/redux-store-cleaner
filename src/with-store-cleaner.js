@@ -6,7 +6,7 @@ import { CLEAN } from './actions';
  * @param {string} namespace - namespace
  * @returns {Function}
  */
-export const withStoreCleaner = (reducer, namespace) =>
+export default (reducer, namespace) =>
   (state, action) => {
     switch (action.type) {
       case CLEAN: {
